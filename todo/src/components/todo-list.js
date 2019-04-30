@@ -6,8 +6,10 @@ const TodoList = () => {
    // const items = ['Learn React','Build Awesome App']
     return (
         <ul>    
-            <li><TodoListItem /></li>
-            <li><TodoListItem /></li>
+            <li><TodoListItem label = "Drink Coffee"/></li>
+            <li><TodoListItem 
+            label = "Build Awesome App" 
+            important = {true}/></li>
         </ul>
     );
 };
