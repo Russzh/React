@@ -10,7 +10,7 @@ const App = () => {
     const todoData = [
         {label: "Drink Coffee", important: false},
         {label: "Make Awesome App", important: true},
-        {label: "Drink Coffee", important: false}
+        {label: "Have a lunch", important: false}
     ];
 
     return (
